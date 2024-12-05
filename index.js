@@ -6,7 +6,7 @@ const App = () => {
   const [tasks, setTasks] = React.useState([]);
 
   React.useEffect(() => {
-    fetch('http://127.0.0.1:5000/tasks?project_id=1') // Altere o ID do projeto conforme necessário
+    fetch('http://127.0.0.1:5000/tasks?project_id=1')
       .then(response => response.json())
       .then(data => {
         setTasks(data.map(task => ({
@@ -51,7 +51,7 @@ const App = () => {
       }}
 
       editSettings={{ allowEditing: true, allowTaskbarEditing: true }}
-      actionComplete={updateTask} // Captura a ação de edição
+      actionComplete={updateTask}
       height="450px"
     >
       <ColumnsDirective>
