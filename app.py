@@ -113,9 +113,7 @@ def login():
         }, app.config['SECRET_KEY'], algorithm='HS256')
         
         return jsonify({'token': token})
-
     return jsonify({'message': 'Invalid credentials'}), 401
-
 from functools import wraps
 
 def token_required(f):
