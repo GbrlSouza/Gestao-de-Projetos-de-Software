@@ -1,0 +1,63 @@
+/* stylelint-disable-line no-empty-source */
+.smart-textarea-suggestion-overlay {
+  display: none;
+  position: absolute;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-right: 0.5rem;
+}
+
+.smart-textarea-suggestion-overlay.smart-textarea-suggestion-overlay-visible {
+  display: block;
+}
+
+.smart-textarea-caret {
+  position: absolute;
+  width: 0.8px;
+  display: none;
+  -webkit-animation: caret-blink 1.025s step-end infinite;
+          animation: caret-blink 1.025s step-end infinite;
+}
+
+@-webkit-keyframes caret-blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes caret-blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.smart-textarea-suggestion-overlay {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  -webkit-box-shadow: 0 1.25px 4px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1.25px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+[data-suggestion-visible]::-moz-selection {
+  color: #999 !important; /* stylelint-disable-line declaration-no-important */
+  background: none !important; /* stylelint-disable-line declaration-no-important */
+}
+
+[data-suggestion-visible]::selection {
+  color: #999 !important; /* stylelint-disable-line declaration-no-important */
+  background: none !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.smart-textarea-caret {
+  background: #ff0000;
+}

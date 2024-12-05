@@ -1,0 +1,44 @@
+.e-popup.e-ddl .e-dropdownbase {
+  min-height: 26px;
+}
+
+.e-ddl.e-popup {
+  border: 0;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  margin-top: 1px;
+}
+.e-ddl.e-popup .e-content.e-nodata {
+  background-color: #fff;
+}
+.e-ddl.e-popup .e-dropdownbase .e-list-item .e-highlight {
+  color: #23726c;
+}
+.e-ddl.e-popup .e-input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+.e-ddl.e-popup .e-input-group input {
+  line-height: 15px;
+}
+
+.e-ddl.e-popup .e-input-group .e-clear-icon {
+  border-radius: 20px;
+  height: 20px;
+  margin: 5px;
+  min-width: 20px;
+}
+.e-ddl.e-popup .e-input-group .e-clear-icon::before {
+  font-size: 10px;
+}
+.e-ddl.e-popup .e-filter-parent {
+  border-left-width: 0;
+  border-right-width: 0;
+}
+.e-ddl.e-popup .e-filter-parent .e-input-group.e-control-wrapper:hover:active {
+  border-color: #000;
+}
+
+/* stylelint-disable-line no-empty-source */

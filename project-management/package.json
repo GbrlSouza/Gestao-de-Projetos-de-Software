@@ -1,0 +1,16 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@syncfusion/ej2-react-gantt": "^27.2.5",
+    "bootstrap": "^5.3.3"
+  }
+}
