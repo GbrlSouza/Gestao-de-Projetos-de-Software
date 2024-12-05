@@ -1,0 +1,13 @@
+
+
+
+
+.e-signature.e-control {
+  border: 1px solid;
+}
+
+.e-signature.e-control {
+  background-color: var(--color-sf-primary-text-color);
+  border: 1px solid;
+  border-color: var(--color-sf-border-light);
+}

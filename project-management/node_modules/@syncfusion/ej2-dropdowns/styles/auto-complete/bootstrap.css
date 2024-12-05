@@ -1,0 +1,59 @@
+.e-popup.e-ddl {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  margin-top: 3px;
+}
+.e-popup.e-ddl .e-input-group {
+  width: auto;
+}
+.e-popup.e-ddl .e-input-group input {
+  line-height: 15px;
+}
+
+.e-popup.e-ddl .e-dropdownbase {
+  min-height: 26px;
+}
+
+.e-popup.e-ddl .e-filter-parent .e-input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+.e-popup.e-ddl .e-filter-parent .e-input-group .e-back-icon {
+  border: 0;
+}
+
+.e-input-group:not(.e-disabled) .e-control.e-dropdownlist ~ .e-ddl-icon:active,
+.e-input-group:not(.e-disabled) .e-control.e-dropdownlist ~ .e-ddl-icon:hover,
+.e-control.e-dropdownlist .e-input-group:not(.e-disabled) .e-ddl-icon:active,
+.e-control.e-dropdownlist .e-input-group:not(.e-disabled) .e-ddl-icon:hover,
+.e-ddl.e-popup .e-input-group:not(.e-disabled) .e-clear-icon:active,
+.e-ddl.e-popup .e-input-group:not(.e-disabled) .e-clear-icon:hover,
+.e-ddl.e-popup .e-input-group:not(.e-disabled) .e-back-icon:active,
+.e-ddl.e-popup .e-input-group:not(.e-disabled) .e-back-icon:hover {
+  background: transparent;
+  color: #333;
+}
+
+.e-input-group:not(.e-disabled) .e-control.e-dropdownlist ~ .e-ddl-icon,
+.e-input-group.e-disabled.e-ddl .e-control.e-dropdownlist ~ .e-input-group-icon,
+.e-control.e-dropdownlist .e-input-group.e-disabled.e-ddl .e-input-group-icon,
+.e-control.e-dropdownlist .e-input-group.e-ddl .e-input-group-icon {
+  border: 0;
+}
+
+.e-input-group:not(.e-disabled) .e-control.e-dropdownlist ~ .e-input-group-icon:active,
+.e-control.e-dropdownlist .e-input-group:not(.e-disabled) .e-input-group-icon:active,
+.e-ddl.e-popup .e-input-group:not(.e-disabled) .e-back-icon:active,
+.e-ddl.e-popup .e-input-group:not(.e-disabled) .e-clear-icon:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.e-ddl.e-popup .e-filter-parent {
+  border-bottom: 1px solid #ccc;
+}
+
+/* stylelint-disable-line no-empty-source */
